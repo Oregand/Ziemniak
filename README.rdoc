@@ -1,0 +1,42 @@
++# Ziemniak
+ +
+ + A MT evaluation tool
+ + This is a rebuild of the Ziemniak MT tool from my college course CA446
+ + Origionally, Alan Kehoe designed and built the system
+ + This is me building the same system from scratch as a learning excercise
+ + This program will be different in way of front end desgin 
+ +
+ +### How to install
+ +## Install dependencies
+ +```
+ +bundle install
+ +```
+ +
+ +## Migrate Database
+ +```
+ +bundle exec rake db:migrate
+ +```
+ +
+ +## Create OAuth Application
+ +```
+ +bundle exec rake db:seed_fu
+ +```
+ +
+ +## Run Rails server
+ +```
+ +bundle exec rails s
+ +```
+ +
+ +## Open browser
+ +navigate to `http://localhost:3000`
+ +
+ +
+ +## License
+ +
+ +MIT License. Copyright 2014 oregand
+ +
+ +## Authors & contributors
+ +
+ +* David O'Regan(Author)
+ +* Alan Kehoe, Origional Program
+ +*
